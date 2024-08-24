@@ -1,7 +1,6 @@
-See https://github.com/turbo-bert/mxee-ce/releases for the latest DMG. Avoid downloading the DMG via Browser (quarantaine) better use:
+See https://github.com/turbo-bert/mxee-ce/releases for the latest DMG. Avoid downloading the DMG with your browser to avoid quarantaine - better use your Terminal with `curl`:
 
     curl -L -O 'https://github.com/turbo-bert/mxee-ce/releases/download/0.0.1/mxee.dmg'
-
 
 # What is mxee
 
