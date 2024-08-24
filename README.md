@@ -18,3 +18,21 @@ So this is my attempt to kind of standar-hack-dize it. If that makes sense. Ther
 Be advised most of this stuff targets open source technology and your own tools written in Python. So if you're a standard xcode mac developer this is maybe not what you are looking for.
 
 So mxee a fairly small ui application for macos that should help you settings things up. You can run it without any preparation. You should be able to set everything up once started. I guess the ui is not really nice and maybe not really self-explaning, sorry.
+
+# Contact
+
+Drop ALL dashes before sending:
+
+    mxee--@mail--box--.--org
+
+# License
+
+BSD
+
+# Bugs
+
+Please use https://github.com/turbo-bert/mxee-ce/issues
+
+# Donate
+
+https://www.paypal.com/donate/?hosted_button_id=4EZE2QKKG29JE
