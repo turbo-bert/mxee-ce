@@ -1,3 +1,5 @@
+See https://github.com/turbo-bert/mxee-ce/releases for the latest DMG.
+
 # What is mxee
 
 If you do software development for a company on a company managed macbook or even on a private hardware it is always kind of the same stuff to do. Not only for yourself but also for your collegues.
