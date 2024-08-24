@@ -1,0 +1,31 @@
+object FormHelpText: TFormHelpText
+  Left = 435
+  Height = 785
+  Top = 120
+  Width = 706
+  Caption = 'Help'
+  ClientHeight = 785
+  ClientWidth = 706
+  FormStyle = fsSystemStayOnTop
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '3.4.0.0'
+  object memo_help: TMemo
+    Left = 0
+    Height = 785
+    Top = 0
+    Width = 706
+    Align = alClient
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Monaco'
+    Lines.Strings = (
+      'HELP'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+end
