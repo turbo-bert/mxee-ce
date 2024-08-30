@@ -7,9 +7,9 @@
       <Unit>
         <Filename Value="mxee.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="2"/>
         <CursorPos Y="19"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="56"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -19,9 +19,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="434"/>
-        <CursorPos X="36" Y="436"/>
-        <UsageCount Value="47"/>
+        <TopLine Value="1082"/>
+        <CursorPos X="43" Y="1104"/>
+        <UsageCount Value="56"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -31,9 +31,9 @@
         <ComponentName Value="FormHelpText"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="3"/>
         <CursorPos X="10" Y="18"/>
-        <UsageCount Value="43"/>
+        <UsageCount Value="52"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -44,129 +44,138 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="43"/>
+        <UsageCount Value="52"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/Applications/Lazarus/lcl/controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="1568"/>
+        <CursorPos X="26" Y="1590"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="674" Column="32" TopLine="649"/>
+        <Caret Line="19" Column="17"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="675" Column="32" TopLine="650"/>
+        <Caret Line="206" Column="27" TopLine="171"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="676" Column="32" TopLine="651"/>
+        <Caret Line="269" Column="23" TopLine="234"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="677" Column="32" TopLine="652"/>
+        <Caret Line="270" Column="23" TopLine="235"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="678" Column="32" TopLine="653"/>
+        <Caret Line="352" Column="30" TopLine="316"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="679" Column="32"/>
+        <Caret Line="355" Column="16" TopLine="319"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="247" TopLine="242"/>
+        <Caret Line="935" Column="16" TopLine="899"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="213" Column="17" TopLine="209"/>
+        <Caret Line="941" Column="16" TopLine="905"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="212" Column="17" TopLine="208"/>
+        <Caret Line="947" Column="16" TopLine="911"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="213" Column="17" TopLine="209"/>
+        <Caret Line="953" Column="16" TopLine="917"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="214" Column="17" TopLine="210"/>
+        <Caret Line="1020" Column="26" TopLine="984"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="428" TopLine="419"/>
+        <Caret Line="1071" Column="41" TopLine="1046"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="670" Column="22" TopLine="658"/>
+        <Caret Line="1072" Column="63" TopLine="1048"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="668" Column="30" TopLine="646"/>
+        <Caret Line="1148" Column="55" TopLine="1109"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="670" Column="53" TopLine="652"/>
+        <Caret Line="1149" Column="55" TopLine="1110"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="669" Column="8" TopLine="652"/>
+        <Caret Line="1150" Column="55" TopLine="1111"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="675" Column="48" TopLine="653"/>
+        <Caret Line="1077" Column="16" TopLine="1062"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="388" Column="5" TopLine="366"/>
+        <Caret Line="1078" Column="16" TopLine="1063"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="398" Column="5" TopLine="377"/>
+        <Caret Line="1157" Column="60" TopLine="1125"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="676" Column="43" TopLine="654"/>
+        <Caret Line="1158" Column="60" TopLine="1126"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="671" Column="57"/>
+        <Caret Line="1159" Column="60" TopLine="1127"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="489" Column="26" TopLine="475"/>
+        <Caret Line="1160" Column="60" TopLine="1128"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="593" Column="68" TopLine="558"/>
+        <Caret Line="1167" Column="52" TopLine="1151"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="746" TopLine="703"/>
+        <Caret Line="1168" Column="52" TopLine="1152"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="747" TopLine="705"/>
+        <Caret Line="1087" Column="54" TopLine="1068"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="745" Column="20" TopLine="704"/>
+        <Caret Line="1088" Column="54" TopLine="1069"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="177" Column="22" TopLine="155"/>
+        <Caret Line="1182" Column="62" TopLine="1147"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="595" Column="74" TopLine="559"/>
+        <Caret Line="1183" Column="62" TopLine="1148"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="752" Column="31" TopLine="711"/>
+        <Caret Line="1184" Column="62" TopLine="1149"/>
       </Position>
       <Position>
         <Filename Value="mxeemain.pas"/>
-        <Caret Line="435" Column="36" TopLine="433"/>
+        <Caret Line="1185" Column="62" TopLine="1150"/>
       </Position>
     </JumpHistory>
     <RunParams>

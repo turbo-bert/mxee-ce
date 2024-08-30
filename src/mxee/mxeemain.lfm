@@ -1,295 +1,296 @@
 object Form1: TForm1
-  Left = 22
-  Height = 198
-  Top = 127
-  Width = 949
+  Left = 346
+  Height = 317
+  Top = 261
+  Width = 1233
   AllowDropFiles = True
   BorderStyle = bsNone
   Caption = 'mxee'
-  ClientHeight = 198
-  ClientWidth = 949
+  ClientHeight = 317
+  ClientWidth = 1233
   FormStyle = fsSystemStayOnTop
   Menu = MainMenu1
+  OnCreate = FormCreate
   OnDropFiles = FormDropFiles
   OnShow = FormShow
   Position = poDefault
   LCLVersion = '3.4.0.0'
   object edit_user: TEdit
-    Left = 232
+    Left = 216
     Height = 22
-    Top = 66
+    Top = 34
     Width = 176
     TabOrder = 0
   end
   object Label1: TLabel
-    Left = 232
+    Left = 216
     Height = 16
-    Top = 48
+    Top = 16
     Width = 159
     Caption = 'Macos Default User / Pass'
     OnClick = Label1Click
   end
-  object edit_user1: TEdit
-    Left = 496
+  object edit_admin: TEdit
+    Left = 488
     Height = 22
-    Top = 66
+    Top = 34
     Width = 192
     TabOrder = 1
   end
   object Label2: TLabel
-    Left = 496
+    Left = 488
     Height = 16
-    Top = 48
+    Top = 16
     Width = 196
     Caption = 'Macos Administrator User / Pass'
     OnClick = Label1Click
   end
   object edit_email: TEdit
-    Left = 1108
+    Left = 988
     Height = 22
-    Top = 402
+    Top = 538
     Width = 200
     TabOrder = 2
   end
   object Label3: TLabel
-    Left = 1108
+    Left = 988
     Height = 16
-    Top = 384
+    Top = 520
     Width = 38
     Caption = 'e-Mail'
     OnClick = Label1Click
   end
   object edit_user3: TEdit
-    Left = 496
+    Left = 488
     Height = 22
-    Top = 94
+    Top = 62
     Width = 192
     EchoMode = emPassword
     PasswordChar = '*'
     TabOrder = 3
   end
   object edit_user4: TEdit
-    Left = 232
+    Left = 216
     Height = 22
-    Top = 96
+    Top = 64
     Width = 176
     EchoMode = emPassword
     PasswordChar = '*'
     TabOrder = 4
   end
   object checkbox_admin: TCheckBox
-    Left = 496
+    Left = 488
     Height = 18
-    Top = 120
+    Top = 88
     Width = 269
     Caption = 'Use Dedicated MAC Administrator Account'
     TabOrder = 5
     OnChange = checkbox_adminChange
   end
   object pb_busy: TProgressBar
-    Left = 240
+    Left = 48
     Height = 28
-    Top = 493
+    Top = 605
     Width = 144
     TabOrder = 6
     Visible = False
   end
   object lb_busy: TLabel
-    Left = 240
+    Left = 48
     Height = 16
-    Top = 480
+    Top = 592
     Width = 47
     Caption = 'lb_busy'
     Visible = False
   end
   object Label7: TLabel
-    Left = 1180
+    Left = 1060
     Height = 16
-    Top = 458
+    Top = 594
     Width = 61
     Caption = 'Office365'
   end
   object edit_email_password: TEdit
-    Left = 1108
+    Left = 988
     Height = 22
-    Top = 430
+    Top = 566
     Width = 200
     EchoMode = emPassword
     PasswordChar = '*'
     TabOrder = 7
   end
   object Bevel3: TBevel
-    Left = 1060
+    Left = 940
     Height = 98
-    Top = 376
+    Top = 512
     Width = 20
   end
   object Button1: TButton
-    Left = 824
+    Left = 1120
     Height = 25
-    Top = 48
+    Top = 16
     Width = 96
     Caption = 'Load'
     TabOrder = 8
     OnClick = Button1Click
   end
   object btn_ini_save: TButton
-    Left = 824
+    Left = 1120
     Height = 25
-    Top = 72
+    Top = 40
     Width = 96
     Caption = 'Save'
     TabOrder = 9
     OnClick = btn_ini_saveClick
   end
   object Label4: TLabel
-    Left = 764
+    Left = 316
     Height = 16
-    Top = 512
+    Top = 520
     Width = 161
     Caption = 'GnuPG Identity Fingerprint'
     OnClick = Label1Click
   end
   object edit_user2: TEdit
-    Left = 764
+    Left = 644
     Height = 22
-    Top = 530
+    Top = 666
     Width = 280
     TabOrder = 10
   end
   object Button3: TButton
-    Left = 908
+    Left = 520
     Height = 25
-    Top = 557
+    Top = 568
     Width = 136
     Caption = 'Nuke GPG HOME'
     TabOrder = 11
     OnClick = Button3Click
   end
   object Button4: TButton
-    Left = 908
+    Left = 513
     Height = 25
-    Top = 584
+    Top = 593
     Width = 136
     Caption = 'Create new Identity'
     TabOrder = 12
     OnClick = Button3Click
   end
   object Button5: TButton
-    Left = 764
+    Left = 316
     Height = 25
-    Top = 584
+    Top = 592
     Width = 136
     Caption = 'Copy ASCII Pub Key'
     TabOrder = 13
     OnClick = Button3Click
   end
   object Button6: TButton
-    Left = 764
+    Left = 316
     Height = 25
-    Top = 557
+    Top = 565
     Width = 136
     Caption = 'Find Identity'
     TabOrder = 14
     OnClick = Button3Click
   end
   object Button7: TButton
-    Left = 248
+    Left = 700
     Height = 25
-    Top = 216
+    Top = 560
     Width = 144
     Caption = 'Offline Help'
     TabOrder = 15
     OnClick = Button7Click
   end
   object btn_guessuser: TButton
-    Left = 416
+    Left = 400
     Height = 25
-    Top = 63
+    Top = 31
     Width = 32
     Caption = '...'
     TabOrder = 16
     OnClick = btn_guessuserClick
   end
   object Bevel7: TBevel
-    Left = 724
+    Left = 276
     Height = 98
-    Top = 512
+    Top = 520
     Width = 20
   end
   object Label5: TLabel
-    Left = 500
+    Left = 52
     Height = 16
-    Top = 512
+    Top = 520
     Width = 168
     Caption = 'SSH ***PRIVATE*** Key File'
     OnClick = Label1Click
   end
   object edit_ssh_private_key_filename: TEdit
-    Left = 496
+    Left = 48
     Height = 22
-    Top = 536
+    Top = 544
     Width = 212
     TabOrder = 17
   end
   object btn_toggle: TButton
-    Left = 248
+    Left = 700
     Height = 25
-    Top = 192
+    Top = 536
     Width = 144
     Caption = 'Toggle Size'
     TabOrder = 18
     OnClick = btn_toggleClick
   end
   object Button2: TButton
-    Left = 856
+    Left = 1152
     Height = 25
-    Top = 104
+    Top = 72
     Width = 32
     Caption = '^'
     TabOrder = 19
     OnClick = Button2Click
   end
   object Button8: TButton
-    Left = 856
+    Left = 1152
     Height = 25
-    Top = 128
+    Top = 96
     Width = 32
     Caption = '_'
     TabOrder = 20
     OnClick = Button8Click
   end
   object Button9: TButton
-    Left = 824
+    Left = 1120
     Height = 25
-    Top = 128
+    Top = 96
     Width = 32
     Caption = '<'
     TabOrder = 21
     OnClick = Button9Click
   end
   object Button10: TButton
-    Left = 888
+    Left = 1184
     Height = 25
-    Top = 128
+    Top = 96
     Width = 32
     Caption = '>'
     TabOrder = 22
     OnClick = Button10Click
   end
   object Button11: TButton
-    Left = 248
+    Left = 700
     Height = 25
-    Top = 240
+    Top = 584
     Width = 144
     Caption = 'Quit'
     TabOrder = 23
     OnClick = Button11Click
   end
   object Button12: TButton
-    Left = 248
+    Left = 700
     Height = 25
-    Top = 328
+    Top = 616
     Width = 144
     Caption = 'Elevated Shell'
     TabOrder = 24
@@ -418,9 +419,9 @@ object Form1: TForm1
     }
   end
   object Button13: TButton
-    Left = 888
+    Left = 1184
     Height = 25
-    Top = 104
+    Top = 72
     Width = 32
     Caption = '^>'
     TabOrder = 25
@@ -429,13 +430,13 @@ object Form1: TForm1
   object StatusBar1: TStatusBar
     Left = 0
     Height = 18
-    Top = 180
-    Width = 949
+    Top = 299
+    Width = 1233
     Panels = <    
       item
         Alignment = taRightJustify
         Text = 'P0'
-        Width = 150
+        Width = 190
       end    
       item
         Alignment = taRightJustify
@@ -446,21 +447,232 @@ object Form1: TForm1
         Width = 50
       end>
     SimplePanel = False
+    OnClick = StatusBar1Click
     OnDblClick = StatusBar1DblClick
   end
+  object edit_console: TEdit
+    Left = 216
+    Height = 22
+    Top = 144
+    Width = 176
+    TabOrder = 27
+  end
+  object Label6: TLabel
+    Left = 216
+    Height = 16
+    Top = 128
+    Width = 110
+    Caption = 'CONSOLE Module'
+  end
+  object Label8: TLabel
+    Left = 489
+    Height = 16
+    Top = 128
+    Width = 161
+    Caption = 'Workspace (Repo Basedir)'
+  end
+  object edit_workspace: TEdit
+    Left = 489
+    Height = 22
+    Top = 144
+    Width = 384
+    TabOrder = 28
+  end
+  object Button14: TButton
+    Left = 880
+    Height = 25
+    Top = 141
+    Width = 32
+    Caption = '...'
+    TabOrder = 29
+    OnClick = Button14Click
+  end
+  object Label9: TLabel
+    Left = 752
+    Height = 16
+    Top = 16
+    Width = 162
+    Caption = 'Blackbook Bash Command'
+  end
+  object edit_blackbook_bash: TEdit
+    Left = 752
+    Height = 22
+    Top = 34
+    Width = 192
+    TabOrder = 30
+  end
+  object Panel1: TPanel
+    Left = 800
+    Height = 104
+    Top = 184
+    Width = 408
+    BevelInner = bvLowered
+    ClientHeight = 104
+    ClientWidth = 408
+    TabOrder = 31
+    OnClick = Panel1Click
+    object edit_user_email: TEdit
+      Left = 128
+      Height = 22
+      Top = 8
+      Width = 264
+      TabOrder = 0
+    end
+    object Label10: TLabel
+      Left = 24
+      Height = 16
+      Top = 14
+      Width = 38
+      Caption = 'e-Mail'
+    end
+    object Label11: TLabel
+      Left = 24
+      Height = 16
+      Top = 40
+      Width = 23
+      Caption = 'Cell'
+    end
+    object edit_contact_cell: TEdit
+      Left = 128
+      Height = 22
+      Top = 34
+      Width = 264
+      TabOrder = 1
+    end
+  end
+  object Panel2: TPanel
+    Left = 16
+    Height = 106
+    Top = 184
+    Width = 768
+    BevelInner = bvLowered
+    ClientHeight = 106
+    ClientWidth = 768
+    TabOrder = 32
+    object Fullname: TLabel
+      Left = 16
+      Height = 16
+      Top = 8
+      Width = 54
+      Caption = 'Fullname'
+    end
+    object edit_fullname: TEdit
+      Left = 16
+      Height = 22
+      Top = 24
+      Width = 152
+      TabOrder = 0
+    end
+    object Label12: TLabel
+      Left = 184
+      Height = 16
+      Top = 8
+      Width = 57
+      Caption = 'Company'
+    end
+    object edit_company: TEdit
+      Left = 184
+      Height = 22
+      Top = 24
+      Width = 136
+      TabOrder = 1
+    end
+    object Label13: TLabel
+      Left = 344
+      Height = 16
+      Top = 8
+      Width = 22
+      Caption = 'Sex'
+    end
+    object combo_sex: TComboBox
+      Left = 344
+      Height = 20
+      Top = 24
+      Width = 120
+      ItemHeight = 19
+      Items.Strings = (
+        'female'
+        'male'
+        'unknown'
+      )
+      TabOrder = 2
+    end
+    object Label14: TLabel
+      Left = 488
+      Height = 16
+      Top = 8
+      Width = 41
+      Caption = 'TAX ID'
+    end
+    object edit_tax: TEdit
+      Left = 488
+      Height = 22
+      Top = 24
+      Width = 256
+      TabOrder = 3
+    end
+    object Label15: TLabel
+      Left = 16
+      Height = 16
+      Top = 56
+      Width = 48
+      Caption = 'Country'
+    end
+    object edit_country: TEdit
+      Left = 16
+      Height = 22
+      Top = 72
+      Width = 160
+      TabOrder = 4
+    end
+    object Label16: TLabel
+      Left = 192
+      Height = 16
+      Top = 56
+      Width = 57
+      Caption = 'Postcode'
+    end
+    object edit_postcode: TEdit
+      Left = 192
+      Height = 22
+      Top = 72
+      Width = 128
+      TabOrder = 5
+    end
+    object Label17: TLabel
+      Left = 344
+      Height = 16
+      Top = 56
+      Width = 37
+      Caption = 'Street'
+    end
+    object edit_street: TEdit
+      Left = 344
+      Height = 22
+      Top = 72
+      Width = 160
+      TabOrder = 6
+    end
+    object Label18: TLabel
+      Left = 536
+      Height = 16
+      Top = 56
+      Width = 63
+      Caption = 'House No.'
+    end
+    object edit_house: TEdit
+      Left = 536
+      Height = 22
+      Top = 72
+      Width = 112
+      TabOrder = 7
+    end
+  end
   object MainMenu1: TMainMenu
-    Left = 456
-    Top = 136
+    Left = 904
+    Top = 80
     object MenuItem1: TMenuItem
       Caption = 'Action'
-      object MenuItem5: TMenuItem
-        Caption = 'Test/Debug'
-        object menu_test: TMenuItem
-          Caption = 'Test'
-          ShortCut = 4180
-          OnClick = menu_testClick
-        end
-      end
       object Separator1: TMenuItem
         Caption = '-'
       end
@@ -469,40 +681,19 @@ object Form1: TForm1
         OnClick = MenuItem2Click
       end
     end
-    object MenuItem6: TMenuItem
-      Caption = 'Maintenance/Setup'
-      object MenuItem7: TMenuItem
-        Caption = '01 Brew Installation'
-      end
-      object MenuItem8: TMenuItem
-        Caption = '02 ~/venv Virtualenv'
-      end
-      object Separator2: TMenuItem
-        Caption = '-'
-      end
-      object MenuItem9: TMenuItem
-        Caption = 'Brew Update'
-      end
-      object MenuItem10: TMenuItem
-        Caption = '~/venv Update'
-      end
-    end
     object MenuItem3: TMenuItem
       Caption = 'Help'
       object MenuItem11: TMenuItem
         Caption = 'Show Offline-Help'
         OnClick = MenuItem11Click
       end
-      object MenuItem4: TMenuItem
-        Caption = 'Version'
-      end
     end
   end
   object timer_busy: TTimer
     Interval = 100
     OnTimer = timer_busyTimer
-    Left = 400
-    Top = 136
+    Left = 336
+    Top = 88
   end
   object TheTray: TTrayIcon
     PopUpMenu = PopupMenu_Tray
@@ -589,54 +780,123 @@ object Form1: TForm1
     Visible = True
     OnClick = TheTrayClick
     OnDblClick = TheTrayDblClick
-    Left = 200
-    Top = 136
+    Left = 960
+    Top = 80
   end
   object PopupMenu_Tray: TPopupMenu
     ParentBidiMode = False
     ImagesWidth = 100
     OnPopup = PopupMenu_TrayPopup
-    Left = 264
-    Top = 136
+    Left = 192
+    Top = 96
+    object menu_org_console: TMenuItem
+      Caption = '     CONSOLE'
+      OnClick = menu_org_consoleClick
+    end
+    object MenuItem29: TMenuItem
+      Caption = '     More...'
+      object MenuItem38: TMenuItem
+        Caption = '     CONSOLE as root'
+      end
+      object Separator2: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem5: TMenuItem
+        Caption = '     Plain Terminal as User'
+        OnClick = MenuItem5Click
+      end
+      object MenuItem4: TMenuItem
+        Caption = '     Plain Terminal as root'
+        OnClick = MenuItem4Click
+      end
+      object Separator14: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem6: TMenuItem
+        Caption = '     Terminal with ~/venv as User'
+        OnClick = MenuItem6Click
+      end
+    end
+    object Separator4: TMenuItem
+      Caption = '-'
+    end
+    object menu_bookmarks: TMenuItem
+      Caption = '     BOOKMARKS'
+    end
+    object MenuItem60: TMenuItem
+      Caption = '     Blackbook / Scratchpad / Notes'
+      OnClick = MenuItem60Click
+    end
     object menu_toggle: TMenuItem
       Caption = '     Show (toggle) main window'
       Checked = True
       OnClick = menu_toggleClick
     end
-    object Separator4: TMenuItem
+    object Separator12: TMenuItem
       Caption = '-'
     end
-    object menu_org_console: TMenuItem
-      Caption = '     CONSOLE (Organization)'
+    object menu_tt_add: TMenuItem
+      Caption = '     Add Timetracking Entry...'
     end
-    object MenuItem29: TMenuItem
-      Caption = '     More options...'
-      object MenuItem30: TMenuItem
-        Caption = '     as Dedicated Administrator'
+    object MenuItem61: TMenuItem
+      Caption = '     Tracking Unit'
+      object menu_tt_15: TMenuItem
+        AutoCheck = True
+        Caption = '     15 min'
+        GroupIndex = 100
+        RadioItem = True
       end
-      object MenuItem38: TMenuItem
-        Caption = '     as root'
+      object menu_tt_30: TMenuItem
+        AutoCheck = True
+        Caption = '     30 min'
+        GroupIndex = 100
+        RadioItem = True
+      end
+      object menu_tt_60: TMenuItem
+        AutoCheck = True
+        Caption = '     60 min (1 hour)'
+        Checked = True
+        GroupIndex = 100
+        RadioItem = True
+      end
+      object menu_tt_120: TMenuItem
+        AutoCheck = True
+        Caption = '     120 min (2 hours)'
+        GroupIndex = 100
+        RadioItem = True
+      end
+      object menu_tt_240: TMenuItem
+        AutoCheck = True
+        Caption = '     240 min (4 hours)'
+        GroupIndex = 100
+        RadioItem = True
+      end
+      object menu_tt_480: TMenuItem
+        AutoCheck = True
+        Caption = '     480 min (8 hours)'
+        GroupIndex = 100
+        RadioItem = True
+      end
+    end
+    object MenuItem62: TMenuItem
+      Caption = '     Data...'
+      object MenuItem63: TMenuItem
+        Caption = '     Edit'
+        OnClick = MenuItem63Click
+      end
+    end
+    object menu_tt: TMenuItem
+      Caption = '     Timetracking Setup...'
+      object menu_tt_edit: TMenuItem
+        Caption = '     Edit TAG file'
+        OnClick = menu_tt_editClick
+      end
+      object menu_tt_reload: TMenuItem
+        Caption = '     Reload'
+        OnClick = menu_tt_reloadClick
       end
     end
     object Separator6: TMenuItem
-      Caption = '-'
-    end
-    object menu_mxee_console: TMenuItem
-      Caption = '     CONSOLE (mxee)'
-    end
-    object MenuItem12: TMenuItem
-      Caption = '     Terminal, sudo bash'
-      OnClick = MenuItem12Click
-    end
-    object MenuItem15: TMenuItem
-      Caption = '     Terminal'
-      OnClick = MenuItem15Click
-    end
-    object MenuItem16: TMenuItem
-      Caption = '     Terminal + ~/venv'
-      OnClick = MenuItem16Click
-    end
-    object Separator5: TMenuItem
       Caption = '-'
     end
     object MenuItem17: TMenuItem
@@ -678,6 +938,9 @@ object Form1: TForm1
         object MenuItem26: TMenuItem
           Caption = '     vi'
         end
+        object MenuItem45: TMenuItem
+          Caption = '     vim'
+        end
       end
       object MenuItem32: TMenuItem
         Caption = '     XLSX'
@@ -693,12 +956,22 @@ object Form1: TForm1
     end
     object MenuItem19: TMenuItem
       Caption = '     System'
+      object MenuItem46: TMenuItem
+        Caption = '     Show Display Settings'
+        OnClick = MenuItem46Click
+      end
       object menu_tweak_sudo_touchid: TMenuItem
-        Caption = '     TouchID sudo'
+        Caption = '     Configure TouchID sudo'
         OnClick = menu_tweak_sudo_touchidClick
       end
+      object MenuItem7: TMenuItem
+        Caption = '     /etc/sudoers'
+        object MenuItem8: TMenuItem
+          Caption = '     Check if User can NOPASSWD sudo'
+        end
+      end
       object MenuItem20: TMenuItem
-        Caption = '     /etc/hosts'
+        Caption = '     Local DNS from /etc/hosts'
         object MenuItem21: TMenuItem
           Caption = '     Copy contents to clipboard'
           OnClick = MenuItem21Click
@@ -716,23 +989,156 @@ object Form1: TForm1
       Caption = '     Generate to clipboard...'
       object MenuItem34: TMenuItem
         Caption = '     UUID4 abc...'
+        OnClick = MenuItem34Click
       end
       object MenuItem35: TMenuItem
         Caption = '     UUID4 ABC...'
-      end
-      object MenuItem36: TMenuItem
-        Caption = '     Random HEX 64 Chars (upper)'
-      end
-      object MenuItem37: TMenuItem
-        Caption = '     Random hex 64 Chars (lower)'
+        OnClick = MenuItem35Click
       end
     end
     object Separator7: TMenuItem
       Caption = '-'
     end
+    object menu_update_homebrew: TMenuItem
+      Caption = '     Update HomeBrew'
+      OnClick = menu_update_homebrewClick
+    end
+    object menu_update_venv: TMenuItem
+      Caption = '     Update ~/venv Packages'
+      OnClick = menu_update_venvClick
+      object MenuItem13: TMenuItem
+        Caption = '     Create Package List'
+        OnClick = MenuItem13Click
+      end
+      object MenuItem28: TMenuItem
+        Caption = '     Edit Package List'
+        OnClick = MenuItem28Click
+      end
+      object MenuItem39: TMenuItem
+        Caption = '     Execute Package List Update(s)'
+        OnClick = MenuItem39Click
+      end
+    end
+    object MenuItem44: TMenuItem
+      Caption = '     Update Chrome'
+      OnClick = MenuItem44Click
+    end
+    object MenuItem55: TMenuItem
+      Caption = '     Update Firefox (Clipboard URL)'
+      OnClick = MenuItem55Click
+    end
+    object Separator13: TMenuItem
+      Caption = '-'
+    end
+    object MenuItem37: TMenuItem
+      Caption = '     Macos softwareupdate scan'
+      OnClick = MenuItem37Click
+    end
+    object MenuItem50: TMenuItem
+      Caption = '     Macos Install Developer Commandline Tools'
+      OnClick = MenuItem50Click
+    end
+    object MenuItem51: TMenuItem
+      Caption = '     Macos Install Rosetta 2'
+      OnClick = MenuItem51Click
+    end
+    object Separator9: TMenuItem
+      Caption = '-'
+    end
+    object MenuItem47: TMenuItem
+      Caption = '     HomeBrew Install Package'
+      object MenuItem48: TMenuItem
+        Caption = '     Recommended Packages'
+      end
+      object MenuItem49: TMenuItem
+        Caption = '     Manual Package Selection'
+        OnClick = MenuItem49Click
+      end
+    end
+    object MenuItem36: TMenuItem
+      Caption = '     External Software Installers'
+      object menu_software_external_brew: TMenuItem
+        Caption = '     HomeBrew'
+        OnClick = menu_software_external_brewClick
+      end
+      object Separator11: TMenuItem
+        Caption = '-'
+      end
+      object menu_software_external_drawio: TMenuItem
+        Caption = '     draw.io'
+        OnClick = menu_software_external_drawioClick
+      end
+      object menu_software_external_chrome: TMenuItem
+        Caption = '     Chrome'
+        OnClick = menu_software_external_chromeClick
+      end
+      object menu_software_external_vscode: TMenuItem
+        Caption = '     VSCode'
+        OnClick = menu_software_external_vscodeClick
+      end
+      object menu_software_external_docker: TMenuItem
+        Caption = '     Docker Desktop'
+        OnClick = menu_software_external_dockerClick
+      end
+      object menu_software_external_thunderbird: TMenuItem
+        Caption = '     Thunderbird'
+        OnClick = menu_software_external_thunderbirdClick
+      end
+      object menu_software_external_firefox: TMenuItem
+        Caption = '     Firefox'
+        OnClick = menu_software_external_firefoxClick
+      end
+      object menu_software_external_sublimetext: TMenuItem
+        Caption = '     SublimeText'
+        OnClick = menu_software_external_sublimetextClick
+      end
+      object menu_software_external_sublimemerge: TMenuItem
+        Caption = '     SublimeMerge'
+        OnClick = menu_software_external_sublimemergeClick
+      end
+      object menu_software_external_phpstorm: TMenuItem
+        Caption = '     PHPStorm'
+        OnClick = menu_software_external_phpstormClick
+      end
+      object menu_software_external_lazarus: TMenuItem
+        Caption = '     Lazarus/FreePascal'
+        OnClick = menu_software_external_lazarusClick
+      end
+    end
+    object Separator10: TMenuItem
+      Caption = '-'
+    end
     object MenuItem14: TMenuItem
       Caption = '     Visit on GitHub'
       OnClick = MenuItem14Click
+    end
+    object MenuItem40: TMenuItem
+      Caption = '     Misc'
+      object MenuItem41: TMenuItem
+        Caption = '     FM Radio'
+        object MenuItem42: TMenuItem
+          Caption = '     DE.SWR3'
+          OnClick = MenuItem42Click
+        end
+        object MenuItem43: TMenuItem
+          Caption = '     DE.WDR2'
+          OnClick = MenuItem43Click
+        end
+      end
+      object MenuItem52: TMenuItem
+        Caption = '     News'
+        object MenuItem53: TMenuItem
+          Caption = '     https://www.heise.de/security/'
+          OnClick = MenuItem53Click
+        end
+      end
+      object MenuItem54: TMenuItem
+        Caption = '     White Noise'
+        object menu_misc_noise_rain_1: TMenuItem
+          Caption = '     Youtube Rain #1'
+          OnClick = menu_misc_noise_rain_1Click
+        end
+      end
     end
     object MenuItem31: TMenuItem
       Caption = '     Help (Offline)'
@@ -750,13 +1156,16 @@ object Form1: TForm1
   object TimerHider: TTimer
     Interval = 300
     OnTimer = TimerHiderTimer
-    Left = 328
-    Top = 136
+    Left = 416
+    Top = 72
   end
   object timer_cron: TTimer
-    Interval = 5000
     OnTimer = timer_cronTimer
     Left = 192
     Top = 8
+  end
+  object selectdir_workspace: TSelectDirectoryDialog
+    Left = 832
+    Top = 80
   end
 end

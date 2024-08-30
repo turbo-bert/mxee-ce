@@ -18,7 +18,7 @@ begin
         'YWwgU2V0dXAKLi4gMS4gUHJlcmVxdWlzaXRlcwouLiAyLiBEb3dubG9hZCBhbmQg' + chr(10) + 
         'U3RhcnQKNC4gQXBwZW5kaXgKLi4gMS4gV3JpdGluZyBFeHRlbnNpb25zCi4uIDIu' + chr(10) + 
         'IEZBUQouLi4uLiAxLiBROiBIZWxwISBYWVogaXMgbm90IHdvcmtpbmcKLi4gMy4g' + chr(10) + 
-        'VmVyc2lvbiBIaXN0b3J5CgoKUmVsZWFzZSAwLjAuMQoKCjEgbXhlZSBDRSAtIE9m' + chr(10) + 
+        'VmVyc2lvbiBIaXN0b3J5CgoKUmVsZWFzZSAwLjAuNgoKCjEgbXhlZSBDRSAtIE9m' + chr(10) + 
         'ZmxpbmUgSGVscAo9PT09PT09PT09PT09PT09PT09PT09PT0KCgoyIEludHJvZHVj' + chr(10) + 
         'dGlvbgo9PT09PT09PT09PT09PQoKMi4xIFdoYXQgaXMgaXQKfn5+fn5+fn5+fn5+' + chr(10) + 
         'fn4KCiAgSWYgeW91IGRvIHNvZnR3YXJlIGRldmVsb3BtZW50IGZvciBhIGNvbXBh' + chr(10) + 
@@ -103,10 +103,24 @@ begin
         'YXZlIG5vIGV4cGVjdGF0aW9ucwogIGFuZCB2aXNpdCA8aHR0cHM6Ly9naXRodWIu' + chr(10) + 
         'Y29tL3R1cmJvLWJlcnQvbXhlZS9pc3N1ZXM+CgoKNC4zIFZlcnNpb24gSGlzdG9y' + chr(10) + 
         'eQp+fn5+fn5+fn5+fn5+fn5+fn5+CgogIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t' + chr(10) + 
-        'LS0tLS0tLS0tLS0tLS0tCiAgIFZlcnNpb24gIFJlbGVhc2UgRGF0ZSAgTm90ZXMg' + chr(10) + 
-        'IEVycmF0YSAKICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t' + chr(10) + 
-        'LQogICAgIDAuMC4xICAgIDIwMjQtMDktMDEgICAgICAgICAgICAgICAgCiAgLS0t' + chr(10) + 
-        'LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0K' + chr(10) + 
+        'LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t' + chr(10) + 
+        'LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAgVmVyc2lvbiAgUmVs' + chr(10) + 
+        'ZWFzZSBEYXRlICBOb3RlcyAgICAgICAgICAgICAgICAgICAgIEVycmF0YSAgICAg' + chr(10) + 
+        'ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgLS0t' + chr(10) + 
+        'LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t' + chr(10) + 
+        'LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t' + chr(10) + 
+        'LS0tLQogICAgIDAuMC4xICAyMDI0LTA5LTAxICAgIC0gR2l0SHViIFRlc3RyZWxl' + chr(10) + 
+        'YXNlICAgICAgLSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg' + chr(10) + 
+        'ICAgICAgICAgICAgICAKICAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t' + chr(10) + 
+        'LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t' + chr(10) + 
+        'LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgICAgMC4wLjIgIC0gICAgICAgICAg' + chr(10) + 
+        'ICAgLSBBZGRlZCBIb21lQnJldyBVcGRhdGVyICAtIERpYWxvZ3MgYXJlIGhpZGRl' + chr(10) + 
+        'biB3aGVuIG1haW4gd2luZG93IGlzIG5vdCB2aXNpYmxlIAogICAgICAgICAgICAg' + chr(10) + 
+        'ICAgICAgICAgICAgIC0gQWRkZWQgdmVudiBVcGRhdGVyICAgICAgICAgICAgICAg' + chr(10) + 
+        'ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAt' + chr(10) + 
+        'LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t' + chr(10) + 
+        'LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t' + chr(10) + 
+        'LS0tLS0tCg==' + chr(10) + 
         '';
     appcons_gethelp := res;
 end;
